@@ -368,8 +368,12 @@ public class Main extends javax.swing.JFrame {
     }
 
     private IPGMImage getSelectedImage() {
-        final JPGMViewer viewer = (JPGMViewer) tabViewHolder.getSelectedComponent();
-        return (viewer == null) ? null : viewer.getIPGMImage();
+
+        if (tabViewHolder.getSelectedComponent() instanceof JPGMViewer) {
+            final JPGMViewer viewer = (JPGMViewer) tabViewHolder.getSelectedComponent();
+            return (viewer == null) ? null : viewer.getIPGMImage();
+        }
+        return null;
     }
 
     private void renderImage(String name, IPGMImage image) {
