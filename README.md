@@ -40,7 +40,7 @@ EE
 * 1 *
 ```
 
-*Structuring element [definition](http://homepages.inf.ed.ac.uk/rbf/HIPR2/strctel.htm)
+* Structuring element [definition](http://homepages.inf.ed.ac.uk/rbf/HIPR2/strctel.htm)
 
 
 After selected the .pgm and the .ee files, just apply a filter and have fun!
@@ -48,7 +48,7 @@ After selected the .pgm and the .ee files, just apply a filter and have fun!
 
 ## Resources
 
-There are a few .pgm images avaible at ```/img```, and a couple structing elements at ```/se```
+There are a few .pgm images available at ```/img```, and a couple structuring elements at ```/se```
 
 ## Filters 
 * Erosion
@@ -64,7 +64,7 @@ There are a few .pgm images avaible at ```/img```, and a couple structing elemen
 ### Authors ###
 
 * Eugênio Ferreira [eug](https://github.com/eug)
-* Guilherme de Oliveira [Srkl](https://github.com/Srkl)
+* Guilherme de Oliveira Santos [Srkl](https://github.com/Srkl)
 
 ## License
 
